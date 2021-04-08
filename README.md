@@ -10,9 +10,12 @@ This project uses Scrapy- a python framework for large scale web scraping- to sc
 * Settings: For this project, this file is used to export the items into a csv file. The Scrapy settings allows you to customize the behaviour of all Scrapy components, including the core, extensions, pipelines and spiders themselves.
 * Middlewares: The spider middleware is a framework of hooks into Scrapy's spider processing mechanism where you can plug custom functionality to process the responses that are sent to Spiders for processing and to process the requests and items that are generated from spiders. But this project doesn't modify middlewares.
 
-##Challenges:
-One of the challenges faced was in extracting multiple attributes of the frame block. I tried multiple ways to solve it; one is to use multiple loops and other method was defining the extractors outside the loop and then creating a dictionary inside that takes in the values from the extractors but for now none of these methods worked. 
-The data attributes of the title are embedded in the subclass(li) of the main class -div, and li- the subclass- has another class div that holds the value of the title. I'm planning on spending more time on it after the submission to solve this problem and scrape the details.
+## Challenges:
+<br>
+<br>
+
+* One of the challenges faced was in extracting multiple attributes of the frame block. I tried multiple ways to solve it; one is to use multiple loops and other method was defining the extractors outside the loop and then creating a dictionary inside that takes in the values from the extractors but for now none of these methods worked. 
+* The data attributes of the title are embedded in the subclass(li) of the main class -div, and li- the subclass- has another class div that holds the value of the title. I'm planning on spending more time on it after the submission to solve this problem and scrape the details.
 
 
 
