@@ -24,10 +24,10 @@ This project uses Scrapy- a python framework for large scale web scraping- to sc
 ### **To run the file:**
 <br>
 
-* downloading the whole folder. <br>
-* cd FinalProject <br>
-* type 'scrapy crawl projects' in the terminal**  <br>
-* There should be a projects.csv file in the Final Project <br>
+* Downloading the folder- **Final Project**. <br>
+* cd FinalProject on the terminal window <br>
+* type 'scrapy crawl projects' in the terminal and press enter**  <br>
+* There should be a projects.csv file in the Final Project as an output<br>
 <br>
 <br>
 
