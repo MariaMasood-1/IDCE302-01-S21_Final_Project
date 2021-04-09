@@ -2,10 +2,12 @@
 
 This script scrapes the 5-day weather forecast from the National Weather Service website and extracts information from detailed forecasts listed under the forecast-tombstone class name using the BeautifulSoup library. Web-scraping is a tool used for extracting the content off the website with the help of bot or spiders. This tool scrapes the underlying HTML code along with the data stored in that code. 
 Libraries used
-->requests: Requests allows you to send organic, grass-fed HTTP/1.1 requests, without the need for manual labor.
+<br>
+
+* requests: Requests allows you to send organic, grass-fed HTTP/1.1 requests, without the need for manual labor.
  
-->bs4: The official name of PiP's Beautiful Soup Python package is beautifulsoup4. This package ensures that if you type pip install bs4 by mistake you will end up with Beautiful Soup. Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree
- 
+* bs4: The official name of PiP's Beautiful Soup Python package is beautifulsoup4. This package ensures that if you type pip install bs4 by mistake you will end up with Beautiful Soup. Beautiful Soup is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree
+<br> 
 This code ran very smoothly on the first run. Since we are taking input from the user, it is important to note that the user input is in integer but the argument passed through the url is string type. 
 For the formatting of the code I used the .replace() function to manually alter different parameters, for example replacing ThursdayNight with Thursday Night. I was looking for a more efficient way of adding space in the text. The difficulty I faced was in assigning an index for the desired operation to manipulate the string.
 I’m trying to learn more about web-scraping through other avenues including the ethics and regulations of web scraping. I tried building a web crawler for my final project to extract the information about solar projects in Massachusetts.
@@ -14,7 +16,6 @@ I’m trying to learn more about web-scraping through other avenues including th
  
 # Script 2:
 <br>
-
 ## Web-crawling using Scrapy
 
 ### Description:
