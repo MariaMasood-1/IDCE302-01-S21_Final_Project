@@ -14,9 +14,10 @@ I’m trying to learn more about web-scraping through other avenues including th
 <br>
 <br>
  
-# Script 2:
-<br>
-**Note: Script 2 is in FinalProject Folder**
+# Script 2:<br>
+
+**Note: Script 2 is in FinalProject Folder**<br>
+
 ## Web-crawling using Scrapy
 
 ### Description:
