@@ -16,6 +16,7 @@ I’m trying to learn more about web-scraping through other avenues including th
  
 # Script 2:
 <br>
+
 ## Web-crawling using Scrapy
 
 ### Description:
