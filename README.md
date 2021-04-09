@@ -23,12 +23,13 @@ I’m trying to learn more about web-scraping through other avenues including th
 This project uses Scrapy- a python framework for large scale web scraping- to scrape the titles of ![Solar Energy Project Portfolio](https://coronalenergy.com/solar-portfolio/?tag=Utility%20Scale) currently existing in the US and transferring the extracted data into a CSV file that can be used for further data manipulation. The motivation for this project is to create a database for the portfolio of all existing projects in Massachusetts that is easily accessible for further data analysis. However, given the time limitation and restriction on the scope of the project, this project focuses on the small element of the final goal. The script scraped a single webpage, extracted the solar project titles and compiled those in a csv file. Since the project uses pre-existing module, it comes with inbuilt components that we briefly discuss in this readme. The goal of this project was also to learn the implementation of scrapy for future projects. 
 ### **To run the file:**
 <br>
-* downloading the whole folder.
-* cd FinalProject
-* type 'scrapy crawl projects' in the terminal** 
-* There should be a projects.csv file in the Final Project
+* downloading the whole folder. <br>
+* cd FinalProject <br>
+* type 'scrapy crawl projects' in the terminal**  <br>
+* There should be a projects.csv file in the Final Project <br>
 <br>
 <br>
+### Elements of the script: <br>
 * Items: Scrapy provides the Item class for this purpose. Item objects are simple containers used to collect the scraped data. They provide a dictionary-like API with a convenient syntax for declaring their available fields. ![Scrapy Documentation](https://docs.scrapy.org/en/0.24/topics/items.html)
 * Pipeline: For this project, item pipeline is not required but as it expands item pipeline cleanses HTML data. validates scraped data, and look for duplicates (and dropping them)
 * FinalProject: This is the main .py file that builds the spider using css selector to extract the titles from the webpage.
